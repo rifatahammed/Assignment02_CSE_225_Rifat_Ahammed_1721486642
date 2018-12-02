@@ -1,9 +1,9 @@
 #include "Customer.h"
-Customer(std::string& name,int age){
+Customer::Customer(std::string& name,int age){
     name=name;
     age=age;
 }
-~Customer();
+Customer::~Customer();
 void Customer:: set_number(int operatorNo,std::string& number){
     operatorNo=operatorNo;
     number=number;
