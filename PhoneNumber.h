@@ -8,6 +8,12 @@ public:
     ~PhoneNumber();
     std::string number;
 	int operatorNo;
+	 /* 1 for GP
+	2 for Robi
+	3 for BanglaLink
+	4 for Teletalk
+	5 for KomKothaKoiben
+	*/
 
 
 };
