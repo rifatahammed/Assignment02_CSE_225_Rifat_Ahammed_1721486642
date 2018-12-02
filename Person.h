@@ -6,7 +6,8 @@ public:
     std::string name;
     int age;
 
-
+    Person(std::string& name,int age);
+	~Person();
     void set_name(std::string& name);
     void set_nameOfFather(std::string& nameOfFather);
     void set_nameOfMother(std::string& nameOfMother);
