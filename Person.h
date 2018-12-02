@@ -45,3 +45,4 @@ private:
     std::string bloodGroup;
 
 };
+#endif
