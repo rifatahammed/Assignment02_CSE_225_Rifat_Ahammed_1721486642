@@ -9,9 +9,9 @@ public:
 
 	void set_number(int operatorNo,std::string& number);
 	std::string get_number();
-	int get_operatora();
+	int get_operator();
 
-	void change_operator(int operatorNo,std::string& number)
+	void change_operator(int operatorNo,std::string& number);
 
 };
 #endif
