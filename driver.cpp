@@ -11,5 +11,13 @@ int main()
 {
 SortedType<int> dataBase;
 cout<<"Creating two customer"<<endl;
-Customer c1;
-Customer c2;
+  //dataBase.Customer(Rifat,23);
+  //dataBase.Customer(Ratul,18);
+  Customer c1;
+  Customer c2;
+  c1.set_number(1,01711111111);
+  c2.set_number(1,01711111111);
+  
+  return 0;
+  
+}
